@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build
-        run: dotnet build MagicDatabase/MagicDatabase.csproj
+        run: dotnet build MagicDatabase/MagicDatabaseUI.csproj
       - name: Publish
-        run: dotnet publish MagicDatabase/MagicDatabase.csproj -c Release -o published
+        run: dotnet publish MagicDatabase/MagicDatabaseUI.csproj -c Release -o published
 
